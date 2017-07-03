@@ -77,9 +77,11 @@ describe('<HighlightGrid />', () => {
         }].reverse();
     });
 
-    /**
-     * TODO
-     */
+	/*it('has 3 tag one <GridList>', () => {
+		const wrapper = shallow(<Header />);
+		expect(wrapper.find('style').length).toBe(1)
+	})*/
+	 
     it('will success', () => {
         expect(false).toBe(false)
     })
